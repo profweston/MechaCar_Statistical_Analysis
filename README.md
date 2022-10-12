@@ -40,8 +40,11 @@ Additional t-tests were performed to see if the PSI of each manufacturing lot is
 ## Study Design: MechaCar vs Competition
 
 In a world where sustainability and carbon footprints have become part of everyday life, $CO_2$ emissions might be a consideration when buying a car. Eco-conscious consumers will be looking to buy a car with low $CO_2$ emissions. The variables to consider in this study is the tailpipe emissions of carbon dioxide (in grams per mile).
+
 $H_0$: There is no statistical difference between the mean of MechaCar prototypes’ tailpipe emissions and the mean of the tailpipe emissions of the competitor vehicles.
+
 $H_a$: There is a statistical difference between the mean of MechaCar prototypes’ tailpipe emissions and the mean of the tailpipe emissions of the competitor vehicles.
+
 Since this study is examining the mean of two different samples. she most appropriate statistical test would be a two-sample t-test. In order to run this statistical test, the  measure of tailpipe emissions of $CO_2$ for all MechaCar prototypes as well as all major competitors would be necessary.
 
 
