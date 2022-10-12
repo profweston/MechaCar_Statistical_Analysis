@@ -9,7 +9,7 @@ According to the summary output, the R-squared value is approximately 0.71 which
 ![Regression Summary](/Resources/Figure1.png)
 
 
-Since the R-squared value from the multiple linear regression model is adequate for this data set, the lack of significant variables could fail to generalize and predict data for MechaCar prototypes effectively. 
+The R-squared value from the multiple linear regression model seems adequate for this data set, however, the lack of significant variables could fail to generalize and predict data for MechaCar prototypes effectively. 
 
 ## Summary Statistics on Suspension Coils
 
@@ -23,11 +23,11 @@ An additional RScript was written to examine the suspension coils by their respe
 
 ## T-Tests on Suspension Coils
 
-An RScript was written to perform a one-sample t-test to determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square in. The null and alternative hypotheses are as follows:
+An RScript was written to perform a one-sample t-test to determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch. The null and alternative hypotheses are as follows:
 
-H_0: There is no statistical difference between the observed sample mean and the population mean of 1,500 pounds per square inch. 
+$H_0$: There is no statistical difference between the observed sample mean and the population mean of 1,500 pounds per square inch. 
 
-H_a: There is a statistical difference between the observed sample mean and the population mean of 1,500 pounds per square inch. 
+$H_a$: There is a statistical difference between the observed sample mean and the population mean of 1,500 pounds per square inch. 
 
 As indicated in the output below, the calculated p-value of 0.06028 is above the significance level of 0.05.  Therefore, there is insufficient evidence to reject the null hypothesis, and thus the two means across all manufacturing lots are not statistically similar. 
 
@@ -39,9 +39,9 @@ Additional t-tests were performed to see if the PSI of each manufacturing lot is
 
 ## Study Design: MechaCar vs Competition
 
-In a world where sustainability and carbon footprints have become part of everyday life, CO_2 emissions might be a consideration when buying a car. Eco-conscious consumers will be looking to buy a car with low CO_2 emissions. The variables to consider in this study is the tailpipe emissions of carbon dioxide (in grams per mile).
-H_0: There is no statistical difference between the mean of MechaCar prototypes’ tailpipe emissions and the mean of the tailpipe emissions of the competitor vehicles.
-H_a There is a statistical difference between the mean of MechaCar prototypes’ tailpipe emissions and the mean of the tailpipe emissions of the competitor vehicles.
-Since this study is examining the mean of two different samples. she most appropriate statistical test would be a two-sample t-test. In order to run this statistical test, the  measure of tailpipe emissions of CO_2 for all MechaCar prototypes as well as all major competitors would be necessary.
+In a world where sustainability and carbon footprints have become part of everyday life, $CO_2$ emissions might be a consideration when buying a car. Eco-conscious consumers will be looking to buy a car with low $CO_2$ emissions. The variables to consider in this study is the tailpipe emissions of carbon dioxide (in grams per mile).
+$H_0$: There is no statistical difference between the mean of MechaCar prototypes’ tailpipe emissions and the mean of the tailpipe emissions of the competitor vehicles.
+$H_a$: There is a statistical difference between the mean of MechaCar prototypes’ tailpipe emissions and the mean of the tailpipe emissions of the competitor vehicles.
+Since this study is examining the mean of two different samples. she most appropriate statistical test would be a two-sample t-test. In order to run this statistical test, the  measure of tailpipe emissions of $CO_2$ for all MechaCar prototypes as well as all major competitors would be necessary.
 
 
