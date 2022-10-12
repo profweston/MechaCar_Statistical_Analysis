@@ -6,7 +6,7 @@ According to my results, vehicle length and ground clearance (as well as interce
 
 According to the summary output, the R-squared value is approximately 0.71 which means that roughly 71% of the variability in mpg is explained using this linear model. In addition, the p-value of our linear regression analysis is $5.35\times 10^{-11}$, which is much smaller than our assumed significance level of 0.05. Therefore, we can state that there is sufficient evidence to reject our null hypothesis, which means that the slope of our linear model is not zero.
 
-![Regression Summary](/Resources/ Figure1.png)
+![Regression Summary](/Resources/Figure1.png)
 
 
 Since the R-squared value from the multiple linear regression model is adequate for this data set, the lack of significant variables could fail to generalize and predict data for MechaCar prototypes effectively. 
