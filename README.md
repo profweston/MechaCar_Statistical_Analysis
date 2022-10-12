@@ -4,7 +4,7 @@
 
 According to my results, vehicle length and ground clearance (as well as intercept) provided a non-random amount of variance to the mpg linear model. In other words, the vehicle length and ground clearance have a significant impact on mpg. 
 
-According to the summary output, the R-squared value is approximately 0.71 which means that roughly 71% of the variability in mpg is explained using this linear model. In addition, the p-value of our linear regression analysis is $5.35\times 10^{-11}$, which is much smaller than our assumed significance level of 0.05. Therefore, we can state that there is sufficient evidence to reject our null hypothesis, which means that the slope of our linear model is not zero.
+According to the summary output, the R-squared value is approximately 0.71 which means that roughly 71% of the variability in mpg is explained using this linear model. In addition, the p-value of the linear regression analysis is $5.35\times 10^{-11}$, which is much smaller than our assumed significance level of 0.05. Therefore, we can state that there is sufficient evidence to reject our null hypothesis, which means that the slope of our linear model is not zero.
 
 ![Regression Summary](/Resources/Figure1.png)
 
@@ -15,11 +15,11 @@ The R-squared value from the multiple linear regression model seems adequate for
 
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch.  An RScript was written to determine the following total summary of all the suspension coils data. The variance of 62.29 meets the required design specification when examining the data set as a whole.
 
-![Suspension Coils Total Summary](/Resources/Figure#.png)
+![Suspension Coils Total Summary](/Resources/Figure4.png)
 
 An additional RScript was written to examine the suspension coils by their respective Manufacturing Lot. As is evident in the summary, only Lot 1 and Lot 2 meet the requirement for the design specifications while the data from Lot 3 seems to be skewing the previous overall summary.
 
-![Suspension Coils Lot Summary](/Resources/Figure#.png)
+![Suspension Coils Lot Summary](/Resources/Figure5.png)
 
 ## T-Tests on Suspension Coils
 
@@ -39,12 +39,12 @@ Additional t-tests were performed to see if the PSI of each manufacturing lot is
 
 ## Study Design: MechaCar vs Competition
 
-In a world where sustainability and carbon footprints have become part of everyday life, $CO_2$ emissions might be a consideration when buying a car. Eco-conscious consumers will be looking to buy a car with low $CO_2$ emissions. The variables to consider in this study is the tailpipe emissions of carbon dioxide (in grams per mile).
+In a world where sustainability and carbon footprints have become part of everyday life, $CO_2$ emissions might be a consideration when buying a car. Eco-conscious consumers will be looking to buy a car with low $CO_2$ emissions. The variable to consider in this study is the tailpipe emissions of carbon dioxide (in grams per mile).
 
 $H_0$: There is no statistical difference between the mean of MechaCar prototypes’ tailpipe emissions and the mean of the tailpipe emissions of the competitor vehicles.
 
 $H_a$: There is a statistical difference between the mean of MechaCar prototypes’ tailpipe emissions and the mean of the tailpipe emissions of the competitor vehicles.
 
-Since this study is examining the mean of two different samples. she most appropriate statistical test would be a two-sample t-test. In order to run this statistical test, the  measure of tailpipe emissions of $CO_2$ for all MechaCar prototypes as well as all major competitors would be necessary.
+Since this study is examining the mean of two different samples, the most appropriate statistical test would be a two-sample t-test. In order to run this statistical test, the  measure of tailpipe emissions of $CO_2$ for all MechaCar prototypes as well as all major competitors would be necessary.
 
 
